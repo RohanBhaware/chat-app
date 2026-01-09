@@ -9,27 +9,36 @@
 }
 
 .input {
-  @apply w-full bg-slate-800/50 border border-slate-700 rounded-lg py-2 pl-10 pr-4 text-slate-200 placeholder-slate-400 focus:ring-2 focus:ring-cyan-500 focus:border-transparent;
+  @apply w-full bg-[#005461]/50 border border-[#0C7779]
+  rounded-lg py-2 pl-10 pr-4 text-[#E6F6F4]
+  placeholder-[#9FD9D2]
+  focus:ring-2 focus:ring-[#3BC1A8]
+  focus:border-transparent;
 }
 
 .auth-input-icon {
-  @apply absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 size-5;
+  @apply absolute left-3 top-1/2 -translate-y-1/2
+  text-[#9FD9D2] size-5;
 }
 
 .auth-input-label {
-  @apply block text-sm font-medium text-slate-300 mb-2;
+  @apply block text-sm font-medium text-[#C7ECE6] mb-2;
 }
 
 .auth-badge {
-  @apply inline-flex items-center px-3 py-1 text-xs font-medium rounded-full bg-cyan-500/20 text-cyan-300;
+  @apply inline-flex items-center px-3 py-1 text-xs font-medium
+  rounded-full bg-[#249E94]/20 text-[#3BC1A8];
 }
 
 .auth-btn {
-  @apply w-full bg-cyan-500 text-white rounded-lg py-2.5 font-medium
-  hover:bg-cyan-600 focus:ring-2 focus:ring-cyan-500;
+  @apply w-full bg-[#249E94] text-white rounded-lg py-2.5 font-medium
+  hover:bg-[#3BC1A8]
+  focus:ring-2 focus:ring-[#3BC1A8];
 }
 
 .auth-link {
-  @apply px-4 py-2 inline-block bg-cyan-500/10 rounded-lg text-cyan-400
-  hover:text-cyan-500 text-sm transition-colors;
+  @apply px-4 py-2 inline-block bg-[#249E94]/10
+  rounded-lg text-[#249E94]
+  hover:text-[#3BC1A8]
+  text-sm transition-colors;
 }

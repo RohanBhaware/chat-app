@@ -93,6 +93,7 @@ function MessageInput() {
           }`}
         >
           <ImageIcon className="w-5 h-5" />
+          
         </button>
         <button
           type="submit"
